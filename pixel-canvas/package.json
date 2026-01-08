@@ -1,0 +1,18 @@
+{
+  "name": "pixel-canvas",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 3000",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1 --port 3000"
+  },
+  "devDependencies": {
+    "vite": "^7.2.4"
+  },
+  "dependencies": {
+    "@web3modal/ethers": "^5.1.11",
+    "ethers": "^6.16.0"
+  }
+}
